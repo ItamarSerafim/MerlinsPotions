@@ -1,4 +1,4 @@
-
+'use strict';
 /**
  * Sends your request to @param url 
  * @param url Endpoint to get your data
@@ -130,3 +130,10 @@ function toggleMenu(el){
 	el.classList.toggle('open');
 	document.body.classList.toggle('menu-open');
 }
+
+//Key listener for hidding lighbox. Hit 'esc' to hide lighbox
+document.addEventListener('keyup', function(evt){
+   if (evt.keyCode){
+       hideLightBox();
+   }
+})
