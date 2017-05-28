@@ -444,11 +444,13 @@ a.nav-link:after {
         margin-top: 3px;
     }
     .logo {
-        zoom: .7;
+        img{
+            width: 186px;
+        }
     }
     .bag-wrap {
-        zoom: 0.8;
         margin-top: -10px;
+        img{width: 30px;}
     }
     .navbar{
         display: none;
@@ -540,10 +542,10 @@ a.nav-link:after {
     }
 }
 
-@media screen and (max-width:480px){        
-    .logo {
-        zoom: .6;
-    }
+@media screen and (max-width:480px){ 
+     .logo img{
+         width: 146px;
+     }
     #main-menu-icon{
         margin: 1px;
         margin-top: 5px;
