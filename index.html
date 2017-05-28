@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Merli's Potions - seductive fragrances</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Get the the best fragrances in the market">
+        <meta name="keywords" content="fragrances,perfume,deodorant,gift" />
+        <meta name="DC.date.created" content="2017-05-25"/>
+        <meta name="DC.type" content="text.homepage.institucional" />
+        <meta name="language" content="en_us"/>
+        <meta name="robots" content="INDEX, FOLLOW">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msapplication-TileImage" content="assets/images/favico.png">
+        <link rel="shortcut icon" href="assets/images/favico.png" type="image/x-icon">
+        <!-- TODO: place android and IOS icons here -->
+
+        <!-- TODO: add facebook SEO tags here
+        
+        <!--[if IE]><link rel="shortcut icon" href="assets/images/favico.png"><![endif]-->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />-->
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Oswald" rel="stylesheet">
+        <link rel="stylesheet" href="dist/css/style.min.css" />
+    </head>
+    <body>
+        <!--TODO: take out unecessary id "main-container"   -->
+        <div class="container" id="main-container">
+            <header>
+                <div class="main-toolbar">   
+                    <div id="main-menu-icon" class="col" onclick="toggleMenu(this)">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>                 
+
+                    <div class="logo col">
+                        <img src="assets/images/logo.png" />
+                        <!-- TODO: take out this part <span class="text-bold">Merlin s</span> Potions 
+                        -->
+                    </div>
+                    <form class="form-inline">
+                        <div class="input input-search"><span class="search-icon">&#128269;</span><input id="search" class="form-control" type="search" placeholder="Search our stock"></div>
+                    </form>
+                    
+                    <div class="pull-right anchor-right">
+                        <div class="free-shipping">
+                            <p class="free-shipping-title">Free shipping</p>
+                            <span class="sub-text">on orders over $50</span>
+                        </div>
+                        <div class="bag-wrap"  >
+                            <img class="bag-img" src="assets/images/bag-icon.png" />
+                            <span class="bag-info">Bag <span class="bag-data">1</span> </span>
+                        </div>
+                    </div>
+                    <!-- <div class="wrap-anchor"></div> -->
+                </div>
+                <nav class="navbar" id="nav-viewport">
+                    <!-- navigation here -->
+                    <ul class="nav">
+                        <li>
+                            <a href="#" class="nav-link">Potions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Ingredients</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Books</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Supplies</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Charms</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn clearance">Clearence!</a>
+                    <div class="signin-signup">
+                        <a href="#" class="nav-link access-control-icon">&#128104;</a>
+                        <span class="access-control-menu"><a href="#" class="nav-link">Sign In</a> or <a href="#" class="nav-link">Sign Up</a></span>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="page-content">
+                <h1 id="potions-title">Potions</h1>
+                <ul id="potions"></ul>
+
+            </div>
+            <footer class="page-footer">
+                <div class="signup">
+                    <p class="sigup-title">Sign up for our Newsletter</p>
+                    <p>Sign up for our Newsletter & get exclusive discounts!</p>
+                    
+                    <form class="form-inline">
+                        <div class="input input-email">
+                            <span class="search-icon">&#9993;</span>
+                            <input id="email" class="form-control" type="email" placeholder="Enter your email">
+                        </div>
+                        <button href="#" class="btn submit">Submit</button>
+                    </form>
+                    <br style="clear:both">
+                </div>
+
+                <div class="contact">
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Carrers</a></li>
+                    </ul>
+                    <p class="copy-right">&copy; 2015 Merlin's Potions. Al Rights Reserved</p>
+                </div>
+                <br style="clear: both"/>
+            </footer>
+                <br style="clear: both"/>
+                <br style="clear: both"/>
+                <br style="clear: both"/>
+                <br style="clear: both"/>
+                <br style="clear: both"/>
+                <br style="clear: both"/>
+                <br style="clear: both"/>
+                <br style="clear: both"/>
+
+        </div><!-- End container -->
+        <div id="view-port" class="light-box-view-port">
+            <a href="javascript:void(0)" onclick="hideLightBox()" class="close">&times;</a>
+            <div id="img-wrap"></div>
+        </div>
+        <div id="light-box-overlay" class="dark-overlay"></div>
+
+        <script>
+            function toggleBkg(flag, url){
+                console.log('flag: ', flag);
+                var mainContainer = document.getElementById('main-container');
+                if (flag) mainContainer.style.backgroundImage = 'url(\'' + url + '\')';
+                else mainContainer.style.backgroundImage = '';
+            }           
+
+        </script>
+        <script src="dist/src/index.js" ></script>
+    </body>
+</html>

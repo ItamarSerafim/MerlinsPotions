@@ -1,0 +1,5 @@
+style="background-image: url('assets/potions-layout-mobile.jpg'); background-repeat: no-repeat; min-height: 1052px;outline: dashed 1px;"
+
+
+             <label>Toggle background-mobile: <input type="checkbox" checked onchange="toggleBkg(this.checked, 'assets/potions-layout-mobile.jpg')" /></label>
+             <label>Toggle background: <input type="checkbox" checked onchange="toggleBkg(this.checked, 'assets/potions-layout.png')" /></label>

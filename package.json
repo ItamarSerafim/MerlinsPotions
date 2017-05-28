@@ -1,0 +1,33 @@
+{
+  "name": "merlins-potions",
+  "version": "1.0.0",
+  "description": "Merlin's potion website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItamarSerafim/MerlinsPotions.git"
+  },
+  "keywords": [
+    "Fragance",
+    "potions",
+    "perfume"
+  ],
+  "author": "Itamar Serafim Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItamarSerafim/MerlinsPotions/issues"
+  },
+  "homepage": "https://github.com/ItamarSerafim/MerlinsPotions#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "plumber": "^0.4.8"
+  }
+}
