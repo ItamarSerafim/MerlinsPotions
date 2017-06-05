@@ -106,7 +106,7 @@ sendRequest('assets/potions.json', function(data){
 		'<li onclick="showLigthbox(' + key +')">'+
 			'<img src="assets/products/' + potion.image +'" />' +
 			'<div class="item-info">'+
-				'<p><span class="item-title">' + potion.name + '</span> - <span class="item-price">' + potion.price + '</span></p>'+
+				'<p><span class="item-title">' + potion.name + '</span> - <span class="item-price">$' + potion.price + '</span></p>'+
 			'</div>'+
 		'</li>'
 	}
