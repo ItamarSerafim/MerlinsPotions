@@ -155,20 +155,24 @@ body{
     }
 }
    /*TODO: take it out */
-a.nav-link:after { 
-    content: ' ';
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-top: 5px dashed;
-    border-top: 5px solid\9;
-    border-right: 5px solid transparent;
-    border-left: 4px solid transparent;
-    margin-left: 10px;
+   
+.sub-items{
+    a.nav-link:after { 
+        content: ' ';
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 2px;
+        vertical-align: middle;
+        border-top: 5px dashed;
+        border-top: 5px solid\9;
+        border-right: 5px solid transparent;
+        border-left: 4px solid transparent;
+        margin-left: 10px;
+    }
 }
 .menu-open{
+    .sub-items{
     a.nav-link:after {
         display: none;
     }
@@ -185,6 +189,7 @@ a.nav-link:after {
         margin-right: 8px;
         transform: rotate(-90deg);
     }
+    } 
     .btn.clearance{
         display: block;
         border-radius: 0;
